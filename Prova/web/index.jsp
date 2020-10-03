@@ -12,6 +12,11 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Aluno: Amanda Fernandez Caetano</h1>
+        <h2 style="color:lightslategray;"> Seu RA: 1290481912050 </h2>
+        <br>
+        <h2 style="color:lightslategray;"><a href="disciplina.jsp">Disciplinas Matriculadas:</a></h2>
+         <br>
+          <br>
     </body>
 </html>
