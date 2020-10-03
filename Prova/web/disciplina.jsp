@@ -23,10 +23,12 @@
     if(request.getParameter("red")!=null){
         int i = Integer.parseInt(request.getParameter("i"));
         Disciplina alt = disciplinaList.get(i);
-       
+          try{
+              alt.setNota(Double.parseDouble(request.getParameter("nota")));
+          }catch (Exception ex){
+              alt.setNota(0.0);
+          }
         response.sendRedirect(request.getRequestURI());
-   
-    }
 %>
 <!DOCTYPE html>
 <html>
@@ -70,6 +72,6 @@
             <%}%>
         </table>
         <br>
-        <h4><a href="index.jsp">Voltar</>a></h4>
+        <h4><a href="index.jsp">Voltar</a></h4>
     </body>
 </html>
