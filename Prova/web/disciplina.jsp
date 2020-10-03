@@ -69,6 +69,7 @@
             </tr>
             <%}%>
         </table>
-          
+        <br>
+        <h4><a href="index.jsp">Voltar</>a></h4>
     </body>
 </html>
