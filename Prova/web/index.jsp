@@ -12,6 +12,14 @@
         <title>JSP Page</title>
     </head>
     <body>
+         <%@include file="WEB-INF/jspf/menu.jspf" %>
+
+        <div class="container-fluid">
+            <h1 style="color:lightslategray;">Home</h1>
+            <hr>
+        </div>
+         <br>
+         <br>
         <h1>Aluno: Amanda Fernandez Caetano</h1>
         <h2 style="color:lightslategray;"> Seu RA: 1290481912050 </h2>
         <br>
