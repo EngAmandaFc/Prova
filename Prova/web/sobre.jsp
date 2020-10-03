@@ -29,5 +29,6 @@
         <h2 style="color:lightslategray;"> Repositório do GitHub </h2><a href="https://github.com/EngAmandaFc"</a>https://github.com/EngAmandaFc</h2>
         <br>
             <br>
+            <h4><a href="index.jsp">Voltar</>a></h4>
     </body>
 </html>
