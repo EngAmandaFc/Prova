@@ -6,6 +6,7 @@
 <%@page import="java.util.ArrayList"%>
 <%@page import="br.poo.fatecpg.Disciplina"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <%
     ArrayList<Disciplina> disciplinaList = (ArrayList)application.getAttribute("disciplinaList");
     if(disciplinaList == null){
@@ -53,20 +54,25 @@
                 <th align="center" style="color:lightslategray;">Redefinir Nota</th>
 
              </tr>
-             <%for(int i=0; i<disciplinaList.size(); i++){%>
+              </tr>
+             
+                <%for(int i=0; i<disciplinaList.size(); i++){%>
             <tr>
-              
+                
                 <% Disciplina u = disciplinaList.get(i); %>
-                <td><%= u.getName() %></td>
-                <td><%= u.getEmenta() %></td>
-                <td><%= u.getCiclo() %></td>
-                <td><%= u.getNota() %></td>
-                <td>
-                    <form>
-                        <input type="hidden" name="i" value="<%= i %>"/>
-                        <input type=""number" step="0.01" min="0" name="nota" style="width:50px">
-                        <input type="submit" name="red" value="Redefinir"/>
-                    </form>
+               
+                
+                
+               <td align="center"><%= u.getName() %></td>
+               <td align="center"><%= u.getEmenta() %></td>
+               <td align="center"><%= u.getCiclo() %></td>
+               <td align="center"><%= u.getNota() %></td>
+             
+                       <td><form>
+                               <input type="hidden" name="i" value="<%= i %>"/>
+                               <input type="number" step="0.01" min="0" name="nota" style="width:50px"/>
+                               <input type="submit" name="red" value="Redefinir nota"/>
+                   </form>
                 </td>
             </tr>
             <%}%>
