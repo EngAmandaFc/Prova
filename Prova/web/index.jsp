@@ -30,8 +30,7 @@
     </head>
     <body>
          <%@include file="WEB-INF/jspf/menu.jspf" %>
-
-        <div class="container-fluid">
+<div class="container-fluid">
             <h1 style="color:lightslategray;">Home</h1>
             <hr>
         </div>
