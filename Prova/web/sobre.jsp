@@ -26,7 +26,7 @@
         <h2 style="color:lightslategray;"> Seu RA: 1290481912050 </h2>
         <br>
             <br>
-        <h2 style="color:lightslategray;"> Repositório do GitHub </h2><a href="https://github.com/EngAmandaFc"</a>https://github.com/EngAmandaFc</h2>
+            <h2 style="color:lightslategray;"> Repositório do GitHub </h2><a href="https://github.com/EngAmandaFc"> </a>https://github.com/EngAmandaFc</h2>
         <br>
             <br>
             <h4><a href="index.jsp">Voltar</>a></h4>
